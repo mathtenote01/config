@@ -1,0 +1,49 @@
+{
+    "workbench.colorTheme": "Vim Deep Dark",
+    "vim.insertModeKeyBindingsNonRecursive": [ 
+        {
+            "before": ["j", "j"],
+            "after": ["Escape"]
+        },
+        {
+            "before": ["<C-h>"],
+            "after": ["left"]
+        },
+        {
+            "before": ["<C-k>"],
+            "after": ["up"]
+        },
+        {
+            "before": ["<C-j>"],
+            "after": ["down"]
+        },
+        {
+            "before": ["<C-l>"],
+            "after": ["right"]
+        },
+        {
+            "before": ["left"],
+            "after": []
+        },
+        {
+            "before": ["right"],
+            "after": []
+        },
+        {
+            "before": ["up"],
+            "after": []
+        },
+        {
+            "before": ["down"],
+            "after": []
+        },
+    ],
+    "vim.incsearch": true,
+    "vim.surround": true,
+    "breadcrumbs.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.guides.bracketPairs": true,
+
+}
